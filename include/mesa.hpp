@@ -10,4 +10,5 @@ class Mesa{
         int showPontos();   
         void chamaTruco();
         void viraCarta();
+        void testeTeste();
 };

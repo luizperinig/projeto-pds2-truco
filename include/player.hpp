@@ -11,4 +11,5 @@ class Player{
 
         std::string getMao();
         void setMao();
+        int kkkkkkkkkkestouficandoloko;
 };
