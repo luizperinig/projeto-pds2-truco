@@ -7,9 +7,9 @@ private:
     std:: string _simbolo;
 
 public:
+    Carta(int valor, std::string simbolo);  //Vinícius 13/11 - Criei um construtor para a classe e removi os sets//
+
     int getValor();
-    void setValor(int valor);
-    std:: string getSimbolo(); 
-    void setSimbolo(std:: string simbolo);
-    
+    std::string getSimbolo(); 
+
 };
