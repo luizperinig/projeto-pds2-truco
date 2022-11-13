@@ -2,6 +2,7 @@
 
 void Mesa::CriaBaralho(){
     //Vinícius 13/11 - Criei o vetor baralho com todas as cartas do truco em ordem crescente de valor//
+    //ATENÇÃO -> Tem q resolver o problema de usar % e \ dentro das aspas
     //Quatro//
     _baralho.push_back(Carta(1, " _____ |4    || ^ ^ ||     || ^ ^ ||____h|")); //Espada
     _baralho.push_back(Carta(1, " _____ |4    || v v ||     || v v ||____h|")); //Coração
