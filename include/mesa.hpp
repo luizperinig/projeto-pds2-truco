@@ -8,6 +8,7 @@ class Mesa{
         Carta _carta2;
         std::vector<Carta> _baralho;
         int _matchPontos;
+        int _valorRodada;
         
         const int _maxMatchPontos = 12;  // 12 pontos para ganhar o jogo
 
@@ -20,10 +21,19 @@ class Mesa{
 
         int getMatchPontos();
         void setMatchPontos(int pontos);
+        
+        
+        int getValorRodada();
+        void setValorRodada(int valor);         //O QUANTO A VITORIA DA RODADA VAI CONTAR NOS PONTOS DE PARTIDA (2,4,6,9,12)
 
         void compareCartas();
         int showPontos();   
+        
         void chamaTruco();
+        void chamaSeis();           //FUNCOES PARA AUMENTAR A PONTUACAO DA RODADA
+        void chamaNove();
+        void chamaQueda();
+        
         void viraCarta();
         void testeTeste();
 };

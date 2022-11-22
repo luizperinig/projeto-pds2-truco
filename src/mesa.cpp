@@ -74,3 +74,28 @@ int Mesa :: getMatchPontos(){
 void Mesa :: setMatchPontos(int pontos){
     _matchPontos += pontos;
 }
+
+int Mesa :: getValorRodada(){
+    return _valorRodada;
+}
+
+void Mesa :: setValorRodada(int valor){
+    _valorRodada = valor;
+}
+
+void Mesa :: chamaTruco(){
+    setValorRodada(4);
+}
+
+void Mesa :: chamaSeis(){
+    setValorRodada(6);
+}
+
+void Mesa ::chamaNove(){
+    setValorRodada(9);
+}
+
+void Mesa :: chamaQueda(){
+    setValorRodada(12);
+}
+
