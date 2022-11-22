@@ -66,3 +66,11 @@ void Mesa::CriaBaralho(){
     _baralho.push_back(Carta(14, " _____ |4    || & & ||     || & & ||____h|")); //4 de Paus(xulaskk)
 
 }
+
+int Mesa :: getMatchPontos(){
+    return _matchPontos;
+}
+
+void Mesa :: setMatchPontos(int pontos){
+    _matchPontos += pontos;
+}
