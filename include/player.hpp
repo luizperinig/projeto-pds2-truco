@@ -3,7 +3,7 @@
 
 class Player{
     private:
-        int _pontos;
+        int _pontos=0;
         std::list<Carta> _mao;
 
         const int _maxRoundPontos = 3;  // 3 pontos para ganhar a rodada
@@ -13,10 +13,11 @@ class Player{
         // Luiz 22/11    PONTUAÇÃO DE RODADA   -MAX 3-     (3 RODADAS, 1 PONTO GANHO A CADA RODADA GANHA)
         int getRoundPontos();
         void setRoundPontos(int pontos);
+        void zeraRoundPontos();
 
         
 
         std::string getMao();
         void setMao();
-        int kkkkkkkkkkestouficandoloko;
+        
 };

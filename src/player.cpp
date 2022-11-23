@@ -10,3 +10,7 @@ int Player::getRoundPontos(){
 void Player :: setRoundPontos(int pontos){
     _pontos += pontos;
 }
+
+void Player :: zeraRoundPontos(){
+    _pontos = 0;
+}

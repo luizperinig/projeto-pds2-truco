@@ -1,4 +1,9 @@
 #include "mesa.hpp"
+#include "carta.hpp"
+
+ //construtor
+
+ 
 
 void Mesa::CriaBaralho(){
     //Vinícius 13/11 - Criei o vetor baralho com todas as cartas do truco em ordem crescente de valor//
@@ -75,12 +80,20 @@ void Mesa :: setMatchPontos(int pontos){
     _matchPontos += pontos;
 }
 
+void Mesa :: zeraMatchPontos(){
+    _matchPontos = 0;
+}
+
 int Mesa :: getValorRodada(){
     return _valorRodada;
 }
 
 void Mesa :: setValorRodada(int valor){
     _valorRodada = valor;
+}
+
+void Mesa :: resetValorRodada(){
+    _valorRodada = 2;
 }
 
 void Mesa :: chamaTruco(){
